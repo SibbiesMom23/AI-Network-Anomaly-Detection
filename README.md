@@ -1,34 +1,51 @@
 # AI-Based Network Anomaly Detection
-This project uses machine learning to identify potential anomalies in network traffic that may reflect cyber threats such as scanning, unusual data flows, or suspicious packet patterns. It demonstrates how AI/ML can support cybersecurity operations, especially in environments where large volumes of telemetry must be analyzed rapidly.
 
-## Features
-- Random Forest machine learning classifier
-- Synthetic network dataset (or replace with real PCAP-derived dataset)
-- Data preprocessing using Pandas
-- Model training, testing, and accuracy evaluation
-- Confusion matrix and classification report
-- Clean, readable Jupyter Notebook
+This project demonstrates how machine learning can be used to detect anomalous network traffic using a Random Forest classifier. It was developed as part of my growing focus on applying artificial intelligence and machine learning to cybersecurity and national security mission areas.
 
-## Technologies
-- Python
-- scikit-learn
-- Pandas
-- NumPy
-- Matplotlib
+## 🔍 Overview
 
-## How It Works
-1. Load and preprocess network activity data  
-2. Train a Random Forest classifier  
-3. Predict whether traffic is normal or anomalous  
-4. Evaluate accuracy and performance metrics  
-5. Visualize results  
+Cybersecurity analysts often need to detect unusual network behavior quickly. This project simulates common network traffic attributes and uses machine learning to classify whether a given traffic pattern is normal or anomalous. It showcases the intersection of cybersecurity and AI, including:
 
-## Future Enhancements
-- Integrate real PCAP → CSV extraction
-- Try unsupervised anomaly detection (Isolation Forest)
-- Add basic OT/ICS-specific features
-- Use neural networks for deeper detection
+- Feature engineering for network data  
+- Training a machine learning model  
+- Evaluating performance using accuracy, precision, and recall  
+- Visualizing results with a confusion matrix  
 
-## Author
+## 🧠 Technologies Used
+
+- Python  
+- Pandas & NumPy  
+- scikit-learn  
+- Matplotlib & Seaborn  
+- Jupyter Notebook / Google Colab  
+
+## 🚀 How It Works
+
+1. **Generate synthetic network activity dataset**  
+2. **Train a Random Forest classifier**  
+3. **Predict anomalous vs. normal traffic**  
+4. **Evaluate model performance**  
+5. **Visualize confusion matrix results**  
+
+You can open the full notebook here:
+
+➡️ **[main.ipynb](./main.ipynb)**
+
+## 📈 Sample Output
+
+- Classification report  
+- Accuracy score  
+- Confusion matrix heatmap  
+
+## 🔧 Future Enhancements
+
+- Integrate real PCAP-to-CSV conversion  
+- Add OT/ICS-specific features for industrial network traffic  
+- Experiment with Isolation Forest or autoencoders  
+- Apply neural networks for advanced detection  
+
+## 👩‍💻 Author
+
 **Stacie A. Smith**  
-Graduate Cybersecurity Student
+U.S. Navy Veteran | Cybersecurity Graduate Student  
+Active DoD Secret Clearance  
