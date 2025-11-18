@@ -48,4 +48,4 @@ You can open the full notebook here:
 
 **Stacie A. Smith**  
 U.S. Navy Veteran | Cybersecurity Graduate Student  
-Active DoD Secret Clearance  
+ 
